@@ -1,0 +1,70 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(rgb(246, 115, 67), white, rgb(62, 249, 62));
+    border-bottom: 0.5px solid black;
+}
+
+.navLogo {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    cursor: pointer;
+}
+
+.navLogo a {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navLogo img {
+    width: 80px;
+}
+
+.navLogo p {
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 5px 0;
+    font-weight: bold;
+    color: navy;
+    font-family: monospace;
+}
+
+.nav-item a {
+    color: black;
+    font-size: 1rem;
+}
+
+.nav-item a:hover,
+:focus {
+    color: red;
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    /* background:linear-gradient(rgb(237, 182, 162), white, rgb(180, 244, 180)); */
+    background-color: whitesmoke;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(236, 235, 235);
+}
+
+.searchForm button {
+    border: 3px solid green;
+    border-radius: 7px;
+}
+
+.searchForm input {
+    border: 2px solid green;
+}
