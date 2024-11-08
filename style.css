@@ -91,6 +91,6 @@ body {
 
 @media (width < 500px) {
     .navbar {
-        padding: 0 0 0 5px !important;
+        padding: 0 0 0 3px !important;
     }
 }
