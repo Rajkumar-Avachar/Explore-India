@@ -223,24 +223,29 @@ header {
     .navbar {
         padding: 0 0 0 3px !important;
     }
+    .navLogo {
+        margin-left: 2px !important;
+    }
     .headerImg img {
-        width: 12rem;
+        width: 20rem;
     }
     #p1 {
-        font-size: 1rem;
-
-    }
-    #p2 {
         font-size: 1.5rem;
 
     }
+    #p2 {
+        font-size: 2rem;
+
+    }
     .headerTitle button {
-        font-size: 0.5rem;
-        padding: 0.1rem 0.2rem;
+        font-size: 1rem;
+        padding: 0.2rem 0.5rem;
 
     }
     .headerInfo {
         padding-left: 1rem;
         padding-right: 1rem;
+        gap: 2rem;
+        flex-wrap: wrap;
     }
 }
