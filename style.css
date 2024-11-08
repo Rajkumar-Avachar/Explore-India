@@ -243,8 +243,7 @@ header {
 
     }
     .headerInfo {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding: 2rem 1rem;
         gap: 2rem;
         flex-wrap: wrap;
     }
