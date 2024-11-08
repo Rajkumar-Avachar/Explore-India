@@ -8,10 +8,6 @@ body {
     overflow: auto;
 }
 
-a {
-    text-decoration: none;
-}
-
 /* Navbar */
 
 .navbar {
@@ -136,6 +132,7 @@ header {
     padding: 0.3rem 1rem;
     border-color: navy;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .headerTitle button:hover {
